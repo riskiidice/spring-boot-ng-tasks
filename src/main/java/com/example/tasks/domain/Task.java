@@ -19,7 +19,6 @@ public class Task {
     @Id
     @GeneratedValue
     private Long id;
-
     private String name;
     @JsonFormat(pattern = "dd/MM/yyyy")
     private LocalDate dueDate;
